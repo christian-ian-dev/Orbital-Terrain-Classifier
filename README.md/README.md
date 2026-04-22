@@ -1,22 +1,16 @@
 # Orbital Terrain Classifier: Robust CNN for Satellite Imagery 
 
-<br>
-
 ---
 
 <br> 
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/) [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/) 
 
-<br>
-
 ---
 
 <br> 
 
  ## Project Overview 
-
-<br>
 
 ---
 
@@ -28,8 +22,6 @@ This project implements a Convolutional Neural Network (CNN) built in PyTorch to
 
 ---
 
-<br>
-
 Designed with aerospace deployment in mind, this project goes beyond standard classification by stress-testing the model against simulated sensor degradation (radiation noise) and utilizing Explainable AI (Grad-CAM) to audit the model's decision-making process.
 
 <br>
@@ -39,8 +31,6 @@ Designed with aerospace deployment in mind, this project goes beyond standard cl
 <br>
 
 **Key Features:** 
-
-<br>
 
 ---
 
@@ -56,8 +46,6 @@ Designed with aerospace deployment in mind, this project goes beyond standard cl
 
 ##  Technology Stack 
 
-<br>
-
 ---
 
 <br>
@@ -72,8 +60,6 @@ Designed with aerospace deployment in mind, this project goes beyond standard cl
 
 ## Performance & Robustness Metrics 
 
-<br>
-
 ---
 
 <br>
@@ -86,7 +72,7 @@ Designed with aerospace deployment in mind, this project goes beyond standard cl
 
 <br>
 
-![Training Curve](images/learning_curve.png)
+![Training Curve](https://github.com/christian-ian-dev/Orbital-Terrain-Classifier/blob/b1bcc4e5f69fd7839c956c798a86bdbc06d15396/images/learning_curve.png)
 
 <br>
 
@@ -110,7 +96,7 @@ Designed with aerospace deployment in mind, this project goes beyond standard cl
 
 <br>
 
-![Noise Degradation Chart](images/noise_degradation.png)
+![Noise Degradation Chart](https://github.com/christian-ian-dev/Orbital-Terrain-Classifier/blob/b1bcc4e5f69fd7839c956c798a86bdbc06d15396/images/noise_degradation.png)
 
 <br>
 
@@ -119,8 +105,6 @@ Designed with aerospace deployment in mind, this project goes beyond standard cl
 <br>
  
 **Analysis:** 
-
-<br>
 
 ---
 
@@ -136,8 +120,6 @@ While standard CNNs perform well on pristine data, the 23.8% drop in accuracy un
 
 ##  Model Transparency (Grad-CAM)
 
-<br>
-
 ---
 
 <br>
@@ -150,7 +132,7 @@ While standard CNNs perform well on pristine data, the 23.8% drop in accuracy un
 
 <br>
 
-![Grad-CAM Heatmap](images/gradcam_output.png)
+![Grad-CAM Heatmap](https://github.com/christian-ian-dev/Orbital-Terrain-Classifier/blob/b1bcc4e5f69fd7839c956c798a86bdbc06d15396/images/gradcam_output.png)
 
 <br>
 
@@ -168,8 +150,6 @@ While standard CNNs perform well on pristine data, the 23.8% drop in accuracy un
 
 ##  How to Run Locally 1. 
 
-<br>
-
 ---
 
 <br>
@@ -182,4 +162,5 @@ While standard CNNs perform well on pristine data, the 23.8% drop in accuracy un
 
 <br>
 
-```bash git clone [https://github.com/](https://github.com/)[YourUsername]/Orbital-Terrain-Classifier.git cd Orbital-Terrain-Classifier
+```bash 
+git clone [https://github.com/](https://github.com/)[YourUsername]/Orbital-Terrain-Classifier.git cd Orbital-Terrain-Classifier
